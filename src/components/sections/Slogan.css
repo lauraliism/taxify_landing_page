@@ -1,0 +1,17 @@
+.Slogan-container {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	color: white;
+}
+
+.Slogan-title {
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.Slogan-text {
+	font-weight: 400;
+	font-size: 14px;
+}

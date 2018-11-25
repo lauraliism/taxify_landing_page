@@ -1,28 +1,38 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { PureComponent } from 'react'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+import logo from './images/logo.png'
+import Slogan from 'components/sections/Slogan'
+import Button from 'components/buttons/Button'
+import './App.css'
+
+class App extends PureComponent {
+	renderButtonRow = () => (
+		<div>
+			<Button
+				title={'Sign in'}
+				onPress={() => console.log('Login pressed')}
+			/>
+		</div>
+	)
+
+	render() {
+		return (
+			<div className='container-fluid d-flex App-container flex-fill'>
+				<section className='App-left-container'>
+					<img src={logo} className='App-logo' alt='Logo' />
+					<div className='App-slogan-container'>
+						<Slogan
+							title='Drive with Taxify'
+							text='Earn good money with your car.'
+						/>
+					</div>
+				</section>
+				<section className='App-right-container'>
+					{this.renderButtonRow()}
+				</section>
+			</div>
+		);
+	}
 }
 
-export default App;
+export default App
