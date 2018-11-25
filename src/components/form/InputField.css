@@ -1,0 +1,13 @@
+.InputField-container {
+	padding-bottom: 5px;
+}
+
+.InputField-label {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0;
+}
+
+.InputField-small-text {
+	font-size: 10px;
+}

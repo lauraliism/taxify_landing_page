@@ -1,33 +1,10 @@
 .App-container {
 	flex-direction: row;
 	padding: 0;
-	height: 100vh;
+	min-height: 100vh;
 }
 
-.App-logo {
-	align-self: flex-start;
-	height: 50px;
-	margin-top: 15px;
-	margin-left: 20px;
-}
-
-.App-slogan-container {
-	display: flex;
+.App-container > section {
 	flex: 1;
-	align-items: center;
-	justify-content: center;
-}
-
-.App-left-container {
 	display: flex;
-	flex: 1;
-	background-image: url(/images/app_background.jpg);
-	background-size: cover;
-	background-position: center;
-	flex-direction: column;
-}
-
-.App-right-container {
-	display: flex;
-	flex: 1;
 }

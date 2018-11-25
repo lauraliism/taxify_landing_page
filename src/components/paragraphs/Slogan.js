@@ -12,7 +12,7 @@ export default class Slogan extends PureComponent<Props> {
 		const { title, text } = this.props
 		return (
 			<div className='Slogan-container'>
-				<span className='Slogan-title'>{title}</span>
+				<h2 className='Slogan-title'>{title}</h2>
 				<span className='Slogan-text'>{text}</span>
 			</div>
 		)

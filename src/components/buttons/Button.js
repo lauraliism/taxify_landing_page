@@ -4,17 +4,20 @@ import './Button.css'
 
 type Props = {
 	title: string,
-	onPress: () => void,
+	onClick: () => void,
+	className?: string,
 }
 
 export default class Button extends PureComponent<Props> {
 	render() {
-		const { title, onPress } = this.props
+		const { title, onClick, className } = this.props
+		const buttonClassName = className ? `Button-container btn btn-dark ${className}` : 'Button-container btn btn-dark'
+
 		return (
 			<button
 				type='button'
-				className='Button-button btn btn-dark'
-				onPress={onPress}
+				className={buttonClassName}
+				onClick={onClick}
 			>
 				{title.toUpperCase()}
 			</button>

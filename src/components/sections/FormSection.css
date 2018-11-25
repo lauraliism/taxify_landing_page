@@ -1,0 +1,48 @@
+.FormSection-container {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.FormSection-form-container {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+.FormSection-iconbutton {
+	margin-right: 3px;
+	color: var(--dark-gray);
+}
+
+.FormSection-top-row {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.FormSection-link {
+	color: var(--primary-gray) !important;
+	padding-right: 15px;
+	padding-left: 15px;
+	align-self: center;
+	font-size: 12px;
+}
+
+.FormSection-logo {
+	display: flex;
+	justify-self: flex-start;
+	height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+	.FormSection-top-row {
+		justify-content: space-between;
+	}
+	.FormSection-button-row {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: row-reverse;
+	}
+}

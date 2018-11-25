@@ -1,0 +1,8 @@
+.IconButton-container {
+	font-size: 12px;
+	justify-content: center;
+	color: var(--dark-gray);
+	background-color: transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+}

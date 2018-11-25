@@ -1,0 +1,42 @@
+.Form-container {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	max-width: 350px;
+	color: var(--dark-gray);
+}
+
+.Form-heading {
+	font-weight: 700;
+}
+
+.Form-text {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.Form-button {
+	background-color: var(--primary-green) !important;
+	border-color: var(--primary-green) !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	font-size: 12px;
+}
+
+.Form-link {
+	font-size: 12px;
+	color: var(--primary-green) !important;
+	align-self: center;
+	padding-bottom: 20px;
+}
+
+.Form-text-center {
+	align-self: center;
+}
+
+@media screen and (max-width: 767px) {
+	.Form-container {
+		align-self: flex-start;
+	}
+}

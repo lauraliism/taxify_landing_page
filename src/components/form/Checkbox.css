@@ -1,0 +1,9 @@
+.Checkbox-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.Checkbox-label {
+	font-size: 12px;
+	color: var(--primary-gray);
+}

@@ -1,0 +1,20 @@
+.PictureSection-container {
+	background-image: url(/images/app_background.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+}
+
+.PictureSection-logo {
+	align-self: flex-start;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.PictureSection-slogan-container {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}

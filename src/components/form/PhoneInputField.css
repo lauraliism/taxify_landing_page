@@ -1,0 +1,29 @@
+.PhoneInputField-container {
+	padding-bottom: 5px;
+}
+
+.PhoneInputField-fields-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.PhoneInputField-country-code-field {
+	display: flex;
+	flex: 2;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.PhoneInputField-number-field {
+	display: flex;
+	flex: 6;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-left-width: 0;
+}
+
+.PhoneInputField-label {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0;
+}
